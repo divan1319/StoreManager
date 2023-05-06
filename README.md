@@ -15,7 +15,7 @@ Creado para tiendas pequeñas o medianas.
 - Ejecutar los comandos: composer install y npm install.
 - Levantar el proyecto con: php artisan serve
 
-### Fases del proyectoÑ
+### Fases del proyecto:
 
 -Fase lanzada actualmente: 1
 - Descripcion de la fase: El empleado o empleada puede acceder al sistema para realizar, verificar y finalizar pedidos. Ademas puede registrar la compra de saldo de las telefonías y registrar compras que no son de un pedido.
