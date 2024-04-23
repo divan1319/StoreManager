@@ -16,9 +16,11 @@ class ComprasPedidos extends Component
 
     public function AgregarCompraPedido(){
         $datos=$this->validate();
+        $order = Order::find($datos['pedido_compra']);
 
         Purchase::create([
-            'order_id'=>$datos['pedido_compra']
+            'order_id'=>$datos['pedido_compra'],
+            'total'=>$order['total']
         ]);
         return back()->with('mensaje','Se agrego la compra');
     }
